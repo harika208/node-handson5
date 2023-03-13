@@ -19,16 +19,17 @@
 
 #chat-container{
     width: 100%;
-    height: 520px;
+    min-height: 520px;
     background-image: url("./background-image.jpg");
+    overflow: hidden;
     
 }
 @media(min-width:300px) and (max-width:900px){
     #chat-container{
         width: 100%;
-        height: 520px;
+        min-height: 520px;
         background-image: url("./background-image.jpg");
-        
+        overflow: hidden;
     }
 }
 #message{
